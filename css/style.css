@@ -1,0 +1,51 @@
+
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+#navbar{ 
+
+    background-color:red ;
+    font-size: 20px;
+}
+#navbar ul{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+#navbar ul li {
+    list-style-type: none;
+    padding: 8px;
+  
+    float:right;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    
+}
+
+
+
+#welcome-section{
+    height: 60px;
+    background-color: black;
+}
+
+#projects{
+
+}
+
+#project-tile{
+
+}
+
+img{
+}
+
+footer{
+}

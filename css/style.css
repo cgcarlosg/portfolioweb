@@ -1,51 +1,124 @@
-
-*{
-box-sizing: border-box;
-}
-body{
-    background-color: white;
-}
-#navbar{ 
-
-    background-color:red ;
-    font-size: 20px;
-}
-#navbar ul{
-    padding: 0px;
-    margin: 0px;
-    display: block;
-}
-#navbar ul li {
-    list-style-type: none;
-    padding: 8px;
-  
-    float:right;
-}
-
-#navbar ul li a {
-    text-decoration: none;
-}
-#navbar ul li a:hover {
-    
-}
-
-
-
-#welcome-section{
-    height: 60px;
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-}
-
-#projects{
-
-}
-
-#project-tile{
-
-}
-
-img{
-}
-
-footer{
-}
+    }
+    #header{
+        height: 200px;
+        width: 100%;
+  
+        
+    }
+    #navbar{
+        font-size: 25px;
+        width: 35%;
+        float: right;
+        width:100%;
+        margin-top: auto;
+        position: fixed;
+        background-color: rgba(255, 0, 0, 0.678);
+        height: 100px;
+       
+    }
+    #navbar ul{
+        line-height: 100px;
+        float: right;
+        text-align: center;
+        padding: 10px;
+        margin-right: 5px;
+    
+    }
+    #navbar ul li{
+        list-style: none;
+        height: 50px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+    #navbar a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        
+    }
+    #navbar a:hover{
+        background-color: gray;
+    }
+    .clearfix{
+        clear:both;
+        float: none;
+    }
+    #welcome-section{
+        width: 100%;
+        text-align: center;
+        color: white;
+        height:100vh;
+     
+    }
+    #welcome text{
+        text-align: center;
+        color: white;
+    }
+    #projects{
+        background-color: rgba(106, 106, 197, 0.733);
+        color:white;
+        min-height: 800px;
+        max-height: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .project-tile{
+        width:100%;
+        margin:5px;
+        list-style: none;
+        padding:10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-tile ul{
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    .project-tile ul li{
+        margin: 5px;
+        align-content: center;
+        
+    
+    }
+    .project-tile img{
+        width:400px;
+        height:300px;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    #contact{
+        width: 100%;
+        height: 300px;
+    }
+    .contact-header{
+        color: white;
+    }
+    .links{
+        color:white;
+        font-size: 22px;
+        text-decoration: none;
+        margin:5px;
+        
+    }
+    .links img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    #footer{
+        color:white;
+    }
+    @media (max-width: 875px){
+        body{
+            background-color: rgb(63, 59, 59);
+    }}
